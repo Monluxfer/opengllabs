@@ -1,0 +1,20 @@
+# Ignore C# output files
+bin/
+obj/
+
+# Ignore Visual Studio directory
+.vs/
+
+# Ignore C# packages directory
+packages/
+
+# Ignore C++ output files
+Debug/
+Release/
+
+# Ignore exe
+*.exe
+
+# Add compiled OpenGL libries for C++
+!GlutGlew/*/bin/
+!GlutGlew/*/bin/Release/
